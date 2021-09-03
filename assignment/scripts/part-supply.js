@@ -34,22 +34,16 @@ console.log('6. Showing supplyChanges...');
 for(let i=0; i<supplyChanges.length; i++){
   console.log(supplyChanges[i]);
 if(supplyChanges[i]>0){
-  console.log('added x parts.');
+  console.log('added ' + supplyChanges[i]+' parts');
 }//more than
 else if(supplyChanges[i]===0){
       console.log('No change.');
 } //equal to  
 else{
-  console.log('Removed x parts.');
+  console.log('Removed ' + supplyChanges[i] + ' parts');
 } // not more or equal to. 
 }// end loop
   
-
-
-
-
-
-
 
 
 
